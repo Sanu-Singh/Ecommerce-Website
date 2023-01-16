@@ -1,0 +1,22 @@
+.Single_category{
+   height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Single_category>img{
+    width: 70px;
+}
+.Single_category>p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.Category_list{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
