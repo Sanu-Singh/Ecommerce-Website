@@ -1,6 +1,7 @@
 import { logDOM } from "@testing-library/react";
 import React from "react";
 import "./Navbar.css";
+import SearchIcon from '@mui/icons-material/Search';
 const Navbar =()=>{
 //Elements
 // 1 logo
@@ -11,13 +12,16 @@ const Navbar =()=>{
 // 6 Item3
 
     return(
-        <div className="Navbar">
-        <div className="Navbar_left">
+        <div className="navbar">
+        <div className="navbar_left">
         <p>Flipkart</p>
-        <input className="Navbar_left_input" placeholder="Search for products, brands and more"/>
+        <input className="navbar_left_input" placeholder="Search for products, brands and more" />
+        <SearchIcon/>
+
+       
         </div>
 
-        <div className="Navbar_right">
+        <div className="navbar_right">
         <p>Name</p>
         <p>Become a Seller</p>
         <p>More</p>

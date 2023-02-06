@@ -1,4 +1,4 @@
-.Navbar{
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,26 +8,28 @@
     cursor: pointer;
 }
 
-.Navbar_left{
+.navbar_left{
     display: flex;
     align-items: center;
+   
 }
-.Navbar_left>p{
+.navbar_left>p{
     font-weight: 800;
     font-size: 25px;
 }
-.Navbar_left_input{
+.navbar_left_input{
     width: 450px;
     height: 30px;
     margin-left: 15px;
+   
 }
 
-.Navbar_right{
+.navbar_right{
     display: flex;
     
 }
 
-.Navbar_right>p{
+.navbar_right>p{
     margin-left: 25px;
     font-weight: 600;
     font-size: 20px;
